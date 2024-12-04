@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{48242bb5-f7cd-4426-9a31-365b3f059771}">
 		<property name="name">
-			<value>LancioBalestra</value>
+			<value>player_generic_crossbow_shoot</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
