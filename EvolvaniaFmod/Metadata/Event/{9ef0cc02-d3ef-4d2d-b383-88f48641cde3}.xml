@@ -5,7 +5,7 @@
 			<value>player_generic_cannon_shoot</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0f4df3c4-ae29-45ab-be67-45daab2c55fb}</destination>
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e271a6a3-1d12-4d0d-b3cb-ea3b0b16dca2}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{d34490db-5cc7-4136-9589-7aad364d30bb}</destination>
 		</relationship>
@@ -124,7 +127,6 @@
 	<object class="MixerBusEffectChain" id="{d34490db-5cc7-4136-9589-7aad364d30bb}">
 		<relationship name="effects">
 			<destination>{98f74892-62af-458d-8cac-3680bdc8ba66}</destination>
-			<destination>{2c5777f3-9cc0-4708-82a2-407f3758ced3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c15383f8-bc93-4412-b465-8d5a51dfe3a3}" />
@@ -179,7 +181,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{156bceda-a513-4e0a-a902-d3e77a5bf961}" />
 	<object class="MixerBusFader" id="{98f74892-62af-458d-8cac-3680bdc8ba66}" />
-	<object class="SpatialiserEffect" id="{2c5777f3-9cc0-4708-82a2-407f3758ced3}" />
 	<object class="AutomationPoint" id="{686afce7-0522-4802-bfe6-af8b2625927c}">
 		<property name="position">
 			<value>0.53125</value>
