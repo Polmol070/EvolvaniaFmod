@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9f9020cb-d610-4268-bd02-5665475322d6}">
 		<property name="name">
-			<value>generic_landing_terrain_2</value>
+			<value>generic_landing_terrain</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
