@@ -73,7 +73,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{1fb22e5e-47cf-46e4-a56b-c269ada8b694}">
 		<property name="volume">
-			<value>-1.5</value>
+			<value>-6</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{30872fa7-03d0-408b-8830-eb725f989b3f}</destination>
@@ -99,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{30872fa7-03d0-408b-8830-eb725f989b3f}">
 		<relationship name="effects">
 			<destination>{7762d509-5359-4930-b732-6e8657e57650}</destination>
+			<destination>{be807102-a09b-4c08-8c36-2ec150894a37}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{736a3537-b442-4ed5-9f80-1619edc0653b}" />
@@ -120,6 +121,14 @@
 	</object>
 	<object class="MixerBusFader" id="{a20abe1a-2403-4d63-b091-47df32286018}" />
 	<object class="MixerBusFader" id="{7762d509-5359-4930-b732-6e8657e57650}" />
+	<object class="MultibandEqEffect" id="{be807102-a09b-4c08-8c36-2ec150894a37}">
+		<property name="filterTypeA">
+			<value>4</value>
+		</property>
+		<property name="frequencyA">
+			<value>130</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{3b55b187-9567-4c64-9986-f7e177380814}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>

@@ -200,6 +200,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{414864df-8747-415d-ad44-7e5cf80f5185}">
+		<property name="volume">
+			<value>-1.5</value>
+		</property>
 		<property name="name">
 			<value>High_b</value>
 		</property>
