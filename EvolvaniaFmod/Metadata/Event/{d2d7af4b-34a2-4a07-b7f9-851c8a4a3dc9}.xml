@@ -73,7 +73,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{6cb4a5e4-acbc-44d4-b999-681c24ae45f3}">
 		<property name="volume">
-			<value>-16</value>
+			<value>-29</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{2083e5cc-726d-4afe-9802-0e08491e53e8}</destination>
@@ -107,7 +107,7 @@
 			<value>-80</value>
 		</property>
 		<property name="attackTime">
-			<value>500</value>
+			<value>700</value>
 		</property>
 		<property name="attackShape">
 			<value>-0.0475981161</value>
@@ -135,6 +135,7 @@
 		</property>
 		<relationship name="modulators">
 			<destination>{27ec73f4-35cb-4add-bc0b-85cb03cf10ce}</destination>
+			<destination>{24210234-d42e-4ab4-b0b6-4290c789378b}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{26c70664-500d-4ebf-a998-13c43550f653}</destination>
@@ -147,16 +148,16 @@
 			<value>4</value>
 		</property>
 		<property name="frequencyA">
-			<value>17157.1074</value>
+			<value>21999.9902</value>
 		</property>
 		<property name="frequencyB">
-			<value>168.983734</value>
+			<value>301.852356</value>
 		</property>
 		<property name="qualityA">
-			<value>0.107891656</value>
+			<value>0.591913342</value>
 		</property>
 		<property name="qualityB">
-			<value>0.697135448</value>
+			<value>0.465646803</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{27ec73f4-35cb-4add-bc0b-85cb03cf10ce}">
@@ -165,6 +166,23 @@
 		</property>
 		<property name="amount">
 			<value>100</value>
+		</property>
+	</object>
+	<object class="LFOModulator" id="{24210234-d42e-4ab4-b0b6-4290c789378b}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="shape">
+			<value>6</value>
+		</property>
+		<property name="rate">
+			<value>0.0749999955</value>
+		</property>
+		<property name="phase">
+			<value>58</value>
+		</property>
+		<property name="depth">
+			<value>6.5</value>
 		</property>
 	</object>
 </objects>
