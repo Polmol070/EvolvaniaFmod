@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{93ef2201-d55c-475f-b4fc-3b7bf9494536}">
 		<property name="name">
-			<value>Parameter 1</value>
+			<value>MergeActivation</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8a6629b3-e4ef-49f7-9d33-0a15be3b47cb}</destination>
