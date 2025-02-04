@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="SandboxScene" id="{165ea896-d3d0-40ae-a8c2-55ce66153e80}">
+		<property name="name">
+			<value>Merge</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e767bc18-731a-40c3-9fc3-5bd504cd372e}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{a83d7981-a381-4aad-9f59-595ef3828e93}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{ef5a2260-2f56-4e48-b879-5237cbede2d6}</destination>
+		</relationship>
+		<relationship name="emitters">
+			<destination>{0d0cfc08-f4b4-434e-8d4a-fb69d0906164}</destination>
+			<destination>{8cee59fc-9bd7-46d8-ac4d-f1f37a951c37}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{a83d7981-a381-4aad-9f59-595ef3828e93}" />
+	<object class="Timeline" id="{ef5a2260-2f56-4e48-b879-5237cbede2d6}" />
+	<object class="SandboxEmitter" id="{0d0cfc08-f4b4-434e-8d4a-fb69d0906164}">
+		<property name="positionX">
+			<value>1.27279222</value>
+		</property>
+		<property name="positionZ">
+			<value>0.282842726</value>
+		</property>
+		<relationship name="event">
+			<destination>{064d1d42-461d-4e01-9f5a-99118f912792}</destination>
+		</relationship>
+	</object>
+	<object class="SandboxEmitter" id="{8cee59fc-9bd7-46d8-ac4d-f1f37a951c37}">
+		<property name="positionX">
+			<value>0.141421348</value>
+		</property>
+		<property name="positionZ">
+			<value>1.97989893</value>
+		</property>
+		<property name="rotationY">
+			<value>-170.44574</value>
+		</property>
+		<relationship name="event">
+			<destination>{ecb74f9e-6f4b-42a9-8d94-5a2ae2584926}</destination>
+		</relationship>
+	</object>
+</objects>
