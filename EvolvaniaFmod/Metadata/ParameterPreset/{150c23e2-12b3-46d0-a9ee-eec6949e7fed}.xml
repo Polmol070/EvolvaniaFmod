@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{150c23e2-12b3-46d0-a9ee-eec6949e7fed}">
+		<property name="name">
+			<value>MergeAmbient</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8a6629b3-e4ef-49f7-9d33-0a15be3b47cb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2ff9ed92-c09c-43df-8767-b7e2d0bdc54c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2ff9ed92-c09c-43df-8767-b7e2d0bdc54c}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
