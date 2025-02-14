@@ -63,7 +63,11 @@
 			<destination>{5d1da9a6-4d17-4800-bac1-052ce0576450}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{5be1d208-9298-47d3-8f29-8c966ec96aa3}" />
+	<object class="EventAutomatableProperties" id="{5be1d208-9298-47d3-8f29-8c966ec96aa3}">
+		<property name="maxVoices">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{680c1c4f-dd45-4712-8e59-0ea99b6b3c66}" />
 	<object class="GroupTrack" id="{b2b47520-978f-402b-bf77-4d8355252a2c}">
 		<relationship name="modules">
@@ -94,8 +98,11 @@
 	</object>
 	<object class="EventMixerMaster" id="{5779faa1-89b4-4ada-8321-5b716efe2c46}">
 		<property name="volume">
-			<value>1.5</value>
+			<value>3</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{da825791-1a3e-488b-8b51-4f11c3d5178f}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{3a28e30f-ce45-46b9-9743-77c72edda31a}</destination>
 		</relationship>
@@ -159,9 +166,6 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{902b13c6-b5ce-4c64-9d8f-179260c55b75}">
-		<property name="start">
-			<value>0.0078125</value>
-		</property>
 		<property name="length">
 			<value>0.6484375</value>
 		</property>
@@ -203,11 +207,28 @@
 			<destination>{5779faa1-89b4-4ada-8321-5b716efe2c46}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{da825791-1a3e-488b-8b51-4f11c3d5178f}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{3a28e30f-ce45-46b9-9743-77c72edda31a}">
 		<relationship name="effects">
 			<destination>{4003d146-1663-4fda-92e7-1864132aec01}</destination>
 			<destination>{323864ff-c58a-4af6-abbb-3cc1c873be79}</destination>
-			<destination>{24885410-26ba-4faf-9384-7fdb8fa6346e}</destination>
+			<destination>{8d83e128-f74c-4fb9-b0d6-8e648a0fd615}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a6fd5c25-c1df-4cb1-9c6d-2f27e1efa0d8}" />
@@ -217,7 +238,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>3.125</value>
+			<value>4.16666698</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{eb900607-6290-4b06-b397-fe060beff86d}">
@@ -429,12 +450,15 @@
 	<object class="MixerBusFader" id="{4003d146-1663-4fda-92e7-1864132aec01}" />
 	<object class="GainEffect" id="{323864ff-c58a-4af6-abbb-3cc1c873be79}">
 		<property name="gain">
-			<value>-9</value>
+			<value>-6</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{24885410-26ba-4faf-9384-7fdb8fa6346e}">
+	<object class="SpatialiserEffect" id="{8d83e128-f74c-4fb9-b0d6-8e648a0fd615}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
 		<property name="maximumDistance">
-			<value>30</value>
+			<value>60</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
