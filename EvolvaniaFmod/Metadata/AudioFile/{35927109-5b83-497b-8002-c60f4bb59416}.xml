@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{35927109-5b83-497b-8002-c60f4bb59416}">
+		<property name="assetPath">
+			<value>Music/M01_Bocca_1/M01_Bocca1_SFX_PatternDenti2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>102</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1f5d9776-bd62-46e8-9177-8206a9dfa926}</destination>
+		</relationship>
+	</object>
+</objects>
