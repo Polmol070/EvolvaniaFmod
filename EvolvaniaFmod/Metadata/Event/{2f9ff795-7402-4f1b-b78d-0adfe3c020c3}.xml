@@ -164,6 +164,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{eedf85e1-3da2-4fa3-b9fc-702d9c9ccfe2}" />
 	<object class="MultiSound" id="{800ccae5-3bce-4acf-80e8-aee1ab34298c}">
+		<property name="volume">
+			<value>1</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{12fcb784-0c3e-423e-bc0c-f623640f1c73}</destination>
 			<destination>{4794ad0c-3d16-409a-9511-de3faf029096}</destination>
@@ -184,7 +187,7 @@
 	<object class="MixerBusFader" id="{5b65caa6-7cb2-4419-aaf1-7466f253ad6b}" />
 	<object class="GainEffect" id="{9b125407-7a7c-4422-9311-e15dc7527a1f}">
 		<property name="gain">
-			<value>-1.5</value>
+			<value>1.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{12fcb784-0c3e-423e-bc0c-f623640f1c73}">

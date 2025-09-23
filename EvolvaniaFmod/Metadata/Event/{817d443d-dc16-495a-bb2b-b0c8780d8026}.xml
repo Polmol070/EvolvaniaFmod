@@ -79,6 +79,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{277dd8b8-7a9b-40e8-96d1-6d8757e62167}">
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{6569ff05-9e60-4dad-8973-40dfcd2ab7d4}</destination>
 		</relationship>
@@ -107,6 +110,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{c93bc378-e02f-4a4b-8cbd-f64f64bffb6e}" />
 	<object class="MultiSound" id="{d120d978-2726-4959-b40e-2c489946c63e}">
+		<property name="startOffset">
+			<value>6</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{0b964a76-74e5-44b4-b946-70c7c0e08207}</destination>
 			<destination>{8a081cb6-e0bc-4fa9-8e07-0a8170289e96}</destination>
@@ -145,7 +151,7 @@
 			<value>-80</value>
 		</property>
 		<property name="attackTime">
-			<value>0</value>
+			<value>3</value>
 		</property>
 		<property name="releaseTime">
 			<value>300</value>
@@ -155,6 +161,9 @@
 		</property>
 	</object>
 	<object class="SingleSound" id="{c9e4b82a-2950-4a25-82b5-3616541e8b62}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{826eb2b7-96ab-4032-8bc8-6c0bcca549b0}</destination>
 		</relationship>

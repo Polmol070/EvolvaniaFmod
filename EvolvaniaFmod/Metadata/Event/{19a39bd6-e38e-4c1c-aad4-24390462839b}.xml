@@ -63,6 +63,9 @@
 		<property name="maxVoices">
 			<value>3</value>
 		</property>
+		<property name="triggerCooldown">
+			<value>60</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{efc048ad-7c70-453b-94bd-62911af9a720}" />
 	<object class="Timeline" id="{284804b2-fa99-45aa-ad0e-f676c21272ee}">
@@ -77,7 +80,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{44934752-aa5c-42b9-b5f4-7bdc0b4e8b18}">
 		<property name="volume">
-			<value>-3</value>
+			<value>-2.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{85b26095-080e-47b0-86cc-6f2cf7c08f6b}</destination>

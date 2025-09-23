@@ -171,7 +171,7 @@
 			<value>2</value>
 		</property>
 		<property name="depth">
-			<value>3</value>
+			<value>3.5</value>
 		</property>
 		<property name="direction">
 			<value>-100</value>
@@ -181,12 +181,16 @@
 		<relationship name="effects">
 			<destination>{bcc87b46-cb71-4d89-9b50-0682438e107f}</destination>
 			<destination>{5d498e6c-fb81-4b7a-8cbd-8b2c1f08fb37}</destination>
+			<destination>{da57da28-cbbf-4ea1-8a60-3fe1a1d1f70a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9aa90eea-127d-4120-9842-f49823be996f}" />
 	<object class="SingleSound" id="{e44a9dd4-fb93-4759-8e4d-29142365467f}">
 		<property name="startOffset">
 			<value>50</value>
+		</property>
+		<property name="volume">
+			<value>1.5</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -221,6 +225,11 @@
 			<destination>{529b0432-3f78-42fe-b2d7-41b4e86734f2}</destination>
 		</relationship>
 	</object>
+	<object class="GainEffect" id="{da57da28-cbbf-4ea1-8a60-3fe1a1d1f70a}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{e9a22fa6-3d30-4bf5-b5d1-1a48ee4f7c88}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>startOffset</value>
@@ -251,7 +260,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-2</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{fb40d4e9-96d8-4ad2-a218-bf3c156ab309}">
@@ -259,7 +268,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-30</value>
+			<value>-27.1428566</value>
 		</property>
 	</object>
 	<object class="Automator" id="{529b0432-3f78-42fe-b2d7-41b4e86734f2}">
