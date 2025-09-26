@@ -19,6 +19,8 @@
 			<destination>{e0c57e5d-4326-4d0f-98cc-493f1b0622f4}</destination>
 			<destination>{bd848a78-cbf6-49a0-bd01-2d1dba4ad8ea}</destination>
 			<destination>{043b94cb-567a-4781-af4d-77b5b6dff668}</destination>
+			<destination>{1aaaf39e-5284-4765-811f-aa9234c9a8fd}</destination>
+			<destination>{c0295c31-ad8e-4303-ae18-2a1ce252b472}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2c3b96cb-b2bb-4bec-b615-94d6f7fef936}" />
@@ -29,4 +31,10 @@
 			<value>22000</value>
 		</property>
 	</object>
+	<object class="MultibandEqEffect" id="{1aaaf39e-5284-4765-811f-aa9234c9a8fd}">
+		<property name="frequencyA">
+			<value>22000</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{c0295c31-ad8e-4303-ae18-2a1ce252b472}" />
 </objects>

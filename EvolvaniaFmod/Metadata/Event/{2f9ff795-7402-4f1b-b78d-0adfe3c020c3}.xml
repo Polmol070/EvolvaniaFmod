@@ -59,12 +59,12 @@
 			<destination>{c2cac50f-795e-4021-94bc-04d09446b887}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6fbb061d-ce6c-45ef-90ca-8d1c5c43e82a}</destination>
+			<destination>{0e522568-f2d5-4535-85aa-50126eebdd7d}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{bb3e0575-e284-4d7d-9bdd-c36381596f41}">
 		<property name="maxVoices">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<property name="priority">
 			<value>3</value>
@@ -187,7 +187,7 @@
 	<object class="MixerBusFader" id="{5b65caa6-7cb2-4419-aaf1-7466f253ad6b}" />
 	<object class="GainEffect" id="{9b125407-7a7c-4422-9311-e15dc7527a1f}">
 		<property name="gain">
-			<value>1.5</value>
+			<value>2.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{12fcb784-0c3e-423e-bc0c-f623640f1c73}">

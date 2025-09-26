@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{ba5774f5-5d00-4447-89e2-ae6ce5627729}">
+		<property name="assetPath">
+			<value>InGameSounds/CheckPoint/CheckPointOut/Exp_Out_Coda/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1f5d9776-bd62-46e8-9177-8206a9dfa926}</destination>
+		</relationship>
+	</object>
+</objects>
