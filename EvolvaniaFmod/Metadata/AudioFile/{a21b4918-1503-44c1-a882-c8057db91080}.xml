@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a21b4918-1503-44c1-a882-c8057db91080}">
 		<property name="assetPath">
-			<value>UI/Menù/InGameMenùClosing.wav</value>
+			<value>UI/Menù_InGame/InGameMenùClosing.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

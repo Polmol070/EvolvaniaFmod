@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="EncodableAsset" id="{5c07c686-e240-4841-990e-ba21b0cea63b}">
 		<property name="assetPath">
-			<value>UI/Menù/</value>
+			<value>UI/Menù_InGame/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{1f5d9776-bd62-46e8-9177-8206a9dfa926}</destination>
