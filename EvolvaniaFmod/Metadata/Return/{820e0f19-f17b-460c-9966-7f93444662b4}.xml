@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>ReverbMouth</value>
 		</property>
+		<relationship name="masters">
+			<destination>{c8d3f8c7-bc08-4444-84e7-4a4f60294c5d}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{2b4afc19-e76d-4706-9882-b079189a998c}</destination>
 		</relationship>
@@ -11,7 +14,7 @@
 			<destination>{fa163619-cd5f-41ca-ac43-358ee454fcc3}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b65cb458-ff7e-4068-878f-0b76038d28a3}</destination>
+			<destination>{c6fd7695-0298-4ef4-8381-6f97bc4ed4a6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{2b4afc19-e76d-4706-9882-b079189a998c}">

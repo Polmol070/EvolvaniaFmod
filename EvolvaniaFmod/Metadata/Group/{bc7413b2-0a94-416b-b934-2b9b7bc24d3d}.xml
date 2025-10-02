@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>NoFilterStuff</value>
 		</property>
+		<relationship name="masters">
+			<destination>{c8d3f8c7-bc08-4444-84e7-4a4f60294c5d}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{30390c41-15c8-4605-9a4a-2fcd9a1484e4}</destination>
 		</relationship>
