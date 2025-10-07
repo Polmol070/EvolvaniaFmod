@@ -159,11 +159,17 @@
 			<destination>{de5427ea-2b8b-4e01-98d7-6259c5882dcd}</destination>
 			<destination>{6eec7e70-e4a1-4a93-82f8-fd8f9b2e4c00}</destination>
 		</relationship>
+		<relationship name="fadeOutCurve">
+			<destination>{949cfdd0-5525-4c44-a6ef-912c1a9fc2c0}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{5374b224-a595-457c-bc5a-ed791be19f6f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{51d696c4-915c-448b-8be5-255de5e51f0e}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<property name="name">
 			<value>Bass</value>
 		</property>
@@ -291,6 +297,14 @@
 			<value>1</value>
 		</property>
 	</object>
+	<object class="FadeCurve" id="{949cfdd0-5525-4c44-a6ef-912c1a9fc2c0}">
+		<relationship name="startPoint">
+			<destination>{77104538-7a18-4dae-9a57-e95a5c6c4995}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{79970de5-b578-406f-aeda-d79df8c0550f}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{b72d7bda-c65e-4233-9a49-6bf1383fcdec}">
 		<relationship name="effects">
 			<destination>{ab712828-0fae-4b34-bc6d-af08d99ef1d5}</destination>
@@ -373,6 +387,25 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{1a916c9d-3f23-4158-b786-9006a144a67d}" />
+	<object class="AutomationPoint" id="{77104538-7a18-4dae-9a57-e95a5c6c4995}">
+		<property name="position">
+			<value>0.25</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.548574984</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{79970de5-b578-406f-aeda-d79df8c0550f}">
+		<property name="position">
+			<value>3</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ab712828-0fae-4b34-bc6d-af08d99ef1d5}" />
 	<object class="AutomationPoint" id="{77d9f25e-81be-4efe-87f1-4d0cf630ef82}">
 		<property name="position">

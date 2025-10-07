@@ -101,7 +101,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{a2948a09-51f2-4b21-88be-f5c710cfd07a}">
 		<property name="volume">
-			<value>-3</value>
+			<value>3</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{d8412de4-350b-43c7-be3b-d09662e33ae8}</destination>
@@ -228,6 +228,9 @@
 		<property name="holdTime">
 			<value>0</value>
 		</property>
+		<property name="releaseTime">
+			<value>2000</value>
+		</property>
 		<property name="finalValue">
 			<value>-80</value>
 		</property>
@@ -269,6 +272,9 @@
 		</property>
 		<property name="holdTime">
 			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>2000</value>
 		</property>
 		<property name="finalValue">
 			<value>-80</value>
