@@ -19,6 +19,7 @@
 			<destination>{176c9fbe-5a06-4f0e-9345-a43f289eff24}</destination>
 			<destination>{d687b147-03ed-4ae7-99ce-a9a59ef51c50}</destination>
 			<destination>{3e7d64ef-f243-489a-8d5e-dd593b827d9e}</destination>
+			<destination>{2f6b94fb-6f1a-439c-8a8b-691af247ed78}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a47e1fc6-3397-46a3-8e11-38bf2eaf57ea}">
@@ -28,11 +29,8 @@
 	</object>
 	<object class="MixerBusFader" id="{176c9fbe-5a06-4f0e-9345-a43f289eff24}" />
 	<object class="GainEffect" id="{d687b147-03ed-4ae7-99ce-a9a59ef51c50}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<property name="gain">
-			<value>5</value>
+			<value>1.5</value>
 		</property>
 	</object>
 	<object class="LimiterEffect" id="{3e7d64ef-f243-489a-8d5e-dd593b827d9e}">
@@ -43,4 +41,5 @@
 			<value>-1</value>
 		</property>
 	</object>
+	<object class="LoudnessMeter" id="{2f6b94fb-6f1a-439c-8a8b-691af247ed78}" />
 </objects>
