@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{29aab310-3030-4355-b448-8430b131baa2}">
 		<property name="assetPath">
-			<value>CutScene/RedAtonalPad.wav</value>
+			<value>CutScene00/RedAtonalPad.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

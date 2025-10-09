@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{26b0f732-e934-4706-a85e-d01aec2585a8}">
 		<property name="assetPath">
-			<value>CutScene/CutScene00/GocceFrizzantiRiv/GocceFrizzantiRiv_1.wav</value>
+			<value>CutScene00/GFRiv1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

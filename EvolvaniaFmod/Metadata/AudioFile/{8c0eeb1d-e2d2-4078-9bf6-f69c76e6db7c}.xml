@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{8c0eeb1d-e2d2-4078-9bf6-f69c76e6db7c}">
 		<property name="assetPath">
-			<value>CutScene/CutScene00/LowRumble.wav</value>
+			<value>CutScene00/LowRumble.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
