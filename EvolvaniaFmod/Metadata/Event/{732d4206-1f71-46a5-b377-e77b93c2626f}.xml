@@ -111,7 +111,7 @@
 			<value>-80</value>
 		</property>
 		<property name="attackTime">
-			<value>0</value>
+			<value>20</value>
 		</property>
 		<property name="releaseTime">
 			<value>360</value>
@@ -127,6 +127,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{d5b04b44-c773-4350-ba07-fe139bb74fb7}" />
 	<object class="MultiSound" id="{9bc54159-5fb3-43d8-bea9-1c829585fa3e}">
+		<property name="startOffset">
+			<value>6</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{1f56c84f-9d9a-4888-a748-1746cc862304}</destination>
 			<destination>{c1e03f3c-c65f-4617-a360-99320d484ba1}</destination>

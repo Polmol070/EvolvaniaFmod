@@ -126,6 +126,7 @@
 	<object class="MixerBusEffectChain" id="{2ae03001-ba5d-41c8-8e64-5e5c2801f60f}">
 		<relationship name="effects">
 			<destination>{b05ac213-8e15-4609-b373-565c0519f93d}</destination>
+			<destination>{cc49946e-399c-4f10-9abf-95980844a63d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d02c893b-ffc6-46c0-9d73-7fc3198b1da8}" />
@@ -140,6 +141,11 @@
 	</object>
 	<object class="MixerBusFader" id="{185defb6-6cc9-4910-b031-6adf5919a5e7}" />
 	<object class="MixerBusFader" id="{b05ac213-8e15-4609-b373-565c0519f93d}" />
+	<object class="GainEffect" id="{cc49946e-399c-4f10-9abf-95980844a63d}">
+		<property name="gain">
+			<value>-8</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{5da3fe09-e923-45f1-9d65-3e965a449086}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
