@@ -64,7 +64,11 @@
 			<destination>{0d302a7b-fcfe-4147-a26d-743a2877ec41}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{4ec19921-31ba-45bc-b837-407172e84049}" />
+	<object class="EventAutomatableProperties" id="{4ec19921-31ba-45bc-b837-407172e84049}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{0d26a326-6dc4-4320-a7ea-0da2f4dda4d4}" />
 	<object class="Timeline" id="{fb0d568d-48f0-4d42-ae67-f5152116c750}">
 		<property name="isProxyEnabled">
@@ -137,6 +141,9 @@
 		</property>
 		<property name="initialValue">
 			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>2000</value>
 		</property>
 		<property name="attackShape">
 			<value>-0.0475981161</value>
