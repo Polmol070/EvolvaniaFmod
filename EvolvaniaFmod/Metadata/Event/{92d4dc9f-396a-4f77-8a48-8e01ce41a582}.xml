@@ -30,6 +30,7 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{cdeba098-7075-4809-9051-891aafa27664}</destination>
+			<destination>{2dfe8e79-2a67-4ba8-a1bd-51bc062d5c96}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{e76be965-1823-42fc-834a-a6cdbba1a4c3}</destination>
@@ -71,6 +72,11 @@
 			<destination>{51d556e8-b586-4a39-b64c-603aa3bc8bc9}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterProxy" id="{2dfe8e79-2a67-4ba8-a1bd-51bc062d5c96}">
+		<relationship name="preset">
+			<destination>{6acaf943-1688-4ad1-a405-85084dcc2400}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{5ea42b6e-5314-4977-9195-24986805a954}">
 		<property name="volume">
 			<value>-4</value>
@@ -99,7 +105,8 @@
 	<object class="MixerBusEffectChain" id="{b5924f23-c920-4c8d-a68f-3aecac670717}">
 		<relationship name="effects">
 			<destination>{37c462d4-7007-4d01-8b1b-b637884812f5}</destination>
-			<destination>{f09d82ba-2da5-44be-835c-17c9cd3d750a}</destination>
+			<destination>{1dbc1eb9-ad08-45a6-a60b-0c58b50cddf2}</destination>
+			<destination>{0ba3e5e4-205c-4021-8872-e768f12a2104}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{21c86eb5-dd75-4786-817d-136dfe3ad6ec}" />
@@ -118,13 +125,33 @@
 	</object>
 	<object class="MixerBusFader" id="{7ab5d9fb-bb71-448b-9203-ef6f0c371fd1}" />
 	<object class="MixerBusFader" id="{37c462d4-7007-4d01-8b1b-b637884812f5}" />
-	<object class="SpatialiserEffect" id="{f09d82ba-2da5-44be-835c-17c9cd3d750a}">
+	<object class="SpatialiserEffect" id="{1dbc1eb9-ad08-45a6-a60b-0c58b50cddf2}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+		<property name="minimumDistance">
+			<value>10</value>
+		</property>
 		<property name="maximumDistance">
-			<value>30</value>
+			<value>100</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
 		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>50</value>
+		</property>
+		<relationship name="automators">
+			<destination>{33a66ea1-4d3a-4cd2-96dc-57f28f014962}</destination>
+		</relationship>
+	</object>
+	<object class="GainEffect" id="{0ba3e5e4-205c-4021-8872-e768f12a2104}">
+		<relationship name="automators">
+			<destination>{ef82c7f4-7bf8-4cdb-9627-f066c303818b}</destination>
+		</relationship>
 	</object>
 	<object class="RandomizerModulator" id="{a180d048-0c54-4e3f-8447-1ef76819fde6}">
 		<property name="nameOfPropertyBeingModulated">
@@ -166,5 +193,77 @@
 		<relationship name="audioFile">
 			<destination>{7e0993f1-de80-4a43-90b4-a919279d40dd}</destination>
 		</relationship>
+	</object>
+	<object class="Automator" id="{33a66ea1-4d3a-4cd2-96dc-57f28f014962}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>panBlend</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{7f8e7c51-b29d-42fe-bbf7-8bca772c0006}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{ef82c7f4-7bf8-4cdb-9627-f066c303818b}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>gain</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{8d3a0435-f91e-4f0a-9e5b-50e5d12bc9a4}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{7f8e7c51-b29d-42fe-bbf7-8bca772c0006}">
+		<relationship name="parameter">
+			<destination>{6acaf943-1688-4ad1-a405-85084dcc2400}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{99cfdb96-bf68-47c7-9e96-9fd1d2f738bb}</destination>
+			<destination>{1766d02c-504b-4a05-808d-a6c875c276a1}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{8d3a0435-f91e-4f0a-9e5b-50e5d12bc9a4}">
+		<relationship name="parameter">
+			<destination>{6acaf943-1688-4ad1-a405-85084dcc2400}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{c47bf060-94da-453e-92ec-4b9714a7d889}</destination>
+			<destination>{ffab332d-013a-4f54-b5ea-fb502ca84738}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{99cfdb96-bf68-47c7-9e96-9fd1d2f738bb}">
+		<property name="position">
+			<value>29.80295566502463</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{1766d02c-504b-4a05-808d-a6c875c276a1}">
+		<property name="position">
+			<value>9.9343185550082094</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{c47bf060-94da-453e-92ec-4b9714a7d889}">
+		<property name="position">
+			<value>10</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>0.368424594</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{ffab332d-013a-4f54-b5ea-fb502ca84738}">
+		<property name="position">
+			<value>90</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
 	</object>
 </objects>
