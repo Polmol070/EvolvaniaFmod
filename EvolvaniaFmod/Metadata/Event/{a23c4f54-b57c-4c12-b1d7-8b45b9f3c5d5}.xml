@@ -5,7 +5,7 @@
 			<value>entity_hit_meat</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2f741710-e253-419d-97d9-8042faa81e56}</destination>
@@ -99,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{a4310aaf-ae2b-4577-88e8-d18297000f5e}">
 		<relationship name="effects">
 			<destination>{d3c7f2ae-5bc7-41c6-89c2-fde5386943b0}</destination>
+			<destination>{574d01fb-b52e-4dc6-a114-a09e4317acbd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{61c0415e-42cf-464c-a662-6f52311bca5a}" />
@@ -120,6 +121,14 @@
 	</object>
 	<object class="MixerBusFader" id="{9278a20a-b6bb-43a5-8703-1c45aacee1a6}" />
 	<object class="MixerBusFader" id="{d3c7f2ae-5bc7-41c6-89c2-fde5386943b0}" />
+	<object class="SpatialiserEffect" id="{574d01fb-b52e-4dc6-a114-a09e4317acbd}">
+		<property name="maximumDistance">
+			<value>30</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{0813a4c9-d359-477a-9745-2f3636e9d9d1}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
