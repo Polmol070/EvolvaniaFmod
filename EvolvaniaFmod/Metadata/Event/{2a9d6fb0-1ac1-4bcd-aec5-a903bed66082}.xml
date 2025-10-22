@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2a9d6fb0-1ac1-4bcd-aec5-a903bed66082}">
 		<property name="name">
-			<value>entity_hit_rockmid</value>
+			<value>entity_hit_rocklittle</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5d22a68c-05d4-401d-b0bd-a83616523433}</destination>
@@ -160,6 +160,7 @@
 	<object class="MixerBusEffectChain" id="{2ce8dcbc-e1d6-4e21-817a-447a4981d377}">
 		<relationship name="effects">
 			<destination>{7c524cec-9778-45a0-9a09-0db2d7b9f4b6}</destination>
+			<destination>{1aee70c0-4df9-4d28-b599-4a09fab6fd58}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{18918c1f-c655-4b38-ae99-5ef9c3e97e71}" />
@@ -237,6 +238,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{06abd860-5177-45b4-92f9-bd0c26608d09}" />
 	<object class="MixerBusFader" id="{7c524cec-9778-45a0-9a09-0db2d7b9f4b6}" />
+	<object class="SpatialiserEffect" id="{1aee70c0-4df9-4d28-b599-4a09fab6fd58}">
+		<property name="maximumDistance">
+			<value>30</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{fd200bc9-888a-4547-af7c-ba5d002c8bd0}">
 		<property name="position">
 			<value>1.125</value>

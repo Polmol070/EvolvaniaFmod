@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{6ab788c8-307a-4c11-b49a-63b36dd12111}">
+		<property name="name">
+			<value>BigRockMoving</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{601e5146-3cf8-478a-b2e5-70bf9d5036fc}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{bff491ce-6e8e-42a9-9cfa-100cff257340}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{809d1dd2-e300-47a8-8b57-4f1e0d993d63}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{601e5146-3cf8-478a-b2e5-70bf9d5036fc}">
+		<relationship name="effects">
+			<destination>{b5bbe507-cfae-4f0c-aa70-da0f52533995}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{bff491ce-6e8e-42a9-9cfa-100cff257340}" />
+	<object class="MixerBusFader" id="{b5bbe507-cfae-4f0c-aa70-da0f52533995}" />
+</objects>

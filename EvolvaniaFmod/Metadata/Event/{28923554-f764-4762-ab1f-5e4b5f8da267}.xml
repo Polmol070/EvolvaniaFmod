@@ -5,7 +5,7 @@
 			<value>entity_hit_glass</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5d22a68c-05d4-401d-b0bd-a83616523433}</destination>
@@ -208,6 +208,7 @@
 	<object class="MixerBusEffectChain" id="{6f53e7db-c273-4145-b5f5-9ffde760d010}">
 		<relationship name="effects">
 			<destination>{08195bba-d345-41b3-8227-ba65321d1678}</destination>
+			<destination>{0994d8b2-420e-4f88-8cda-fb75daf4b9a1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7ab1c4ac-a07f-4197-9be0-a5a8c7119139}" />
@@ -367,6 +368,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{80ae381d-0d33-410a-915d-0fe6a0704653}" />
 	<object class="MixerBusFader" id="{08195bba-d345-41b3-8227-ba65321d1678}" />
+	<object class="SpatialiserEffect" id="{0994d8b2-420e-4f88-8cda-fb75daf4b9a1}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+		<property name="maximumDistance">
+			<value>60</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{38e8b31e-f2f6-4aae-8967-1e81794230f7}">
 		<property name="position">
 			<value>0.375</value>
