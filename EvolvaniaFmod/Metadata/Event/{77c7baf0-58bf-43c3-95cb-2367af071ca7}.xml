@@ -58,6 +58,12 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d0f5c14c-2fb4-400d-8b85-db0092493012}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
 		<property name="priority">
 			<value>4</value>
 		</property>
@@ -123,6 +129,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d82c9dbc-e011-4a41-a1e1-b3b9106a605e}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<property name="name">
 			<value>Text</value>
 		</property>
@@ -149,7 +158,7 @@
 	</object>
 	<object class="CommandSound" id="{d0a27c8f-5d1f-456f-a4fb-5e507552a8f4}">
 		<property name="start">
-			<value>0.875</value>
+			<value>0.625</value>
 		</property>
 		<property name="length">
 			<value>0.125</value>

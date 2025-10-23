@@ -142,6 +142,7 @@
 		<relationship name="effects">
 			<destination>{09024cae-3f32-4d9a-8636-f14396cf05cc}</destination>
 			<destination>{9ed6d6b8-ff71-4781-8e87-49cdc8f92ff5}</destination>
+			<destination>{1c488aeb-edc6-4798-85c4-b9c200f88a82}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ef439917-8f6c-40ff-812c-551504b2dce7}" />
@@ -175,6 +176,11 @@
 		</property>
 		<property name="overridingOutputFormat">
 			<value>1</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{1c488aeb-edc6-4798-85c4-b9c200f88a82}">
+		<property name="gain">
+			<value>4</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{59937100-6dee-4bf6-8ee2-c17143c483eb}" />
