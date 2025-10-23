@@ -752,7 +752,7 @@
 	<object class="MixerBusFader" id="{dc354dee-3a53-4a82-9c11-b7cf1e295a51}" />
 	<object class="GainEffect" id="{407ed9b1-3067-4203-af94-ca99ff3915ca}">
 		<property name="gain">
-			<value>5</value>
+			<value>6</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{a621e6f6-87e4-4ad7-a933-62ae973a9c05}">

@@ -141,6 +141,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bfdd4454-e9a2-409a-acbb-882c445fb93d}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<property name="name">
 			<value>Death</value>
 		</property>
@@ -367,7 +370,7 @@
 			<value>10</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>3</value>
 		</property>
 		<property name="curveShape">
 			<value>0.368424594</value>

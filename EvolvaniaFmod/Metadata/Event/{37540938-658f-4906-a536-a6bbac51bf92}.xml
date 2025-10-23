@@ -5,7 +5,7 @@
 			<value>MainThemeDesolate</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8b4af320-dcbc-439f-899d-8bb5641a88d4}</destination>
@@ -57,6 +57,12 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ad1cc15d-6d67-4643-82fa-46926a914df7}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="voiceStealing">
+			<value>4</value>
+		</property>
 		<property name="priority">
 			<value>4</value>
 		</property>
@@ -110,6 +116,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{20908aec-7b65-4f8f-896c-10f108e2c03d}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<property name="name">
 			<value>Music</value>
 		</property>
@@ -128,7 +137,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>160.41206249999999</value>
+			<value>152.13620833333334</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{7f1ee9bb-5bae-476c-9023-26332edf4ebf}</destination>
@@ -157,6 +166,8 @@
 	<object class="MixerBusEffectChain" id="{828ef558-e416-496c-b480-cf519d2c4afc}">
 		<relationship name="effects">
 			<destination>{c8e58cd4-ddf7-428b-aef0-98eecdadcaa2}</destination>
+			<destination>{c434fc2a-7b0b-43f1-85aa-f63cb7024186}</destination>
+			<destination>{e24a23dc-9518-457c-9e75-9eb0a4409fc0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3cc87f4f-d0c8-43eb-8a94-dcf672483217}" />
@@ -168,5 +179,80 @@
 	</object>
 	<object class="MixerBusPanner" id="{e88d162a-b3f2-48ab-bd4c-1168d7d73f18}" />
 	<object class="MixerBusFader" id="{c8e58cd4-ddf7-428b-aef0-98eecdadcaa2}" />
+	<object class="SpatialiserEffect" id="{c434fc2a-7b0b-43f1-85aa-f63cb7024186}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+		<property name="minimumDistance">
+			<value>15</value>
+		</property>
+		<property name="maximumDistance">
+			<value>100</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>2</value>
+		</property>
+		<property name="soundSize">
+			<value>50</value>
+		</property>
+		<property name="panBlend">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{c33eb954-ae8e-449c-9e7a-c35af8c153ad}</destination>
+		</relationship>
+	</object>
+	<object class="GainEffect" id="{e24a23dc-9518-457c-9e75-9eb0a4409fc0}">
+		<relationship name="automators">
+			<destination>{029bf11e-85c0-4c2d-a6d3-a6d4738f80a0}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{2ecdee3a-0a3e-49b3-82e3-c89965180761}" />
+	<object class="Automator" id="{c33eb954-ae8e-449c-9e7a-c35af8c153ad}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>panBlend</value>
+		</property>
+	</object>
+	<object class="Automator" id="{029bf11e-85c0-4c2d-a6d3-a6d4738f80a0}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>gain</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{ab41d2f3-55d7-43cf-97be-5abcd45c8c6b}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{ab41d2f3-55d7-43cf-97be-5abcd45c8c6b}">
+		<relationship name="parameter">
+			<destination>{6acaf943-1688-4ad1-a405-85084dcc2400}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{e406fafc-1e39-4da7-99e9-f183c9454d7c}</destination>
+			<destination>{111fbbc7-234e-4817-8247-c892d4610795}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{e406fafc-1e39-4da7-99e9-f183c9454d7c}">
+		<property name="position">
+			<value>10</value>
+		</property>
+		<property name="value">
+			<value>4</value>
+		</property>
+		<property name="curveShape">
+			<value>0.368424594</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{111fbbc7-234e-4817-8247-c892d4610795}">
+		<property name="position">
+			<value>100</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
 </objects>

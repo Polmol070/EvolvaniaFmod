@@ -116,7 +116,7 @@
 	<object class="MixerBusPanner" id="{4a22c842-7cae-40ae-886b-e60673398323}" />
 	<object class="MultiSound" id="{a789768a-3369-4c6b-b4e7-afe3a55a0fb7}">
 		<property name="start">
-			<value>0.0625</value>
+			<value>0.0546875</value>
 		</property>
 		<property name="length">
 			<value>0.625</value>
@@ -144,6 +144,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9ffbfd6d-1aa8-47db-8b55-f844e2a8c864}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<property name="name">
 			<value>Death</value>
 		</property>
@@ -311,7 +314,7 @@
 	</object>
 	<object class="AutomationPoint" id="{e5d7deb4-0df9-41fe-9866-30db3de5caa5}">
 		<property name="position">
-			<value>0.65625</value>
+			<value>0.5</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -322,7 +325,7 @@
 	</object>
 	<object class="AutomationPoint" id="{13db47f3-e500-43b8-b3a1-664c295331cb}">
 		<property name="position">
-			<value>0.68749999999999978</value>
+			<value>0.67968749999999978</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -385,7 +388,7 @@
 			<value>10</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>3</value>
 		</property>
 		<property name="curveShape">
 			<value>0.368424594</value>

@@ -164,12 +164,14 @@
 		<relationship name="sounds">
 			<destination>{08b366cb-1b8d-4511-864d-16cb300009e9}</destination>
 			<destination>{1da6e7ac-fb86-446f-9e23-3ed68eb691f9}</destination>
-			<destination>{553f5d83-0ab8-457b-beeb-051cac850400}</destination>
 			<destination>{03be1751-0b34-4693-89b6-d3e16123f8d0}</destination>
 			<destination>{58197d7a-935a-4ab0-98f3-cb7c3c4dc386}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{347e622c-c5ff-4e36-94e9-a1037566ec96}">
+		<property name="volume">
+			<value>-1.5</value>
+		</property>
 		<property name="name">
 			<value>Low</value>
 		</property>
@@ -205,6 +207,7 @@
 			<destination>{30d0a909-d8e5-40b7-9fcd-0039588cca3c}</destination>
 			<destination>{e7ad461b-07f1-4da1-967e-df9d047e7ccd}</destination>
 			<destination>{330f3332-8862-46fe-80dc-403e44e724c1}</destination>
+			<destination>{c5b15b07-aa91-4562-8e19-24ea749ec650}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{60562444-aab6-415f-acec-6de9537a0d53}" />
@@ -311,13 +314,11 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{1da6e7ac-fb86-446f-9e23-3ed68eb691f9}">
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{aa6b0eb0-326b-4a05-83a9-2dd4bdb4f467}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{553f5d83-0ab8-457b-beeb-051cac850400}">
-		<relationship name="audioFile">
-			<destination>{c357d2dc-10e3-4190-a51b-07fceca71782}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{03be1751-0b34-4693-89b6-d3e16123f8d0}">
@@ -364,6 +365,20 @@
 		<relationship name="automators">
 			<destination>{60ffb19e-2936-4aca-9f5c-df9b022daee0}</destination>
 		</relationship>
+	</object>
+	<object class="MultibandEqEffect" id="{c5b15b07-aa91-4562-8e19-24ea749ec650}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>90</value>
+		</property>
+		<property name="qualityA">
+			<value>10</value>
+		</property>
+		<property name="gainA">
+			<value>-3</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{35ef6172-a3ea-4eba-9cad-251d0a9b8072}">
 		<property name="position">
@@ -460,7 +475,7 @@
 			<value>10</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>4</value>
 		</property>
 		<property name="curveShape">
 			<value>0.368424594</value>
