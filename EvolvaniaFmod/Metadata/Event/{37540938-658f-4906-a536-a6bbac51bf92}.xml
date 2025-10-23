@@ -193,13 +193,10 @@
 			<value>true</value>
 		</property>
 		<property name="extentMode">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>50</value>
-		</property>
-		<property name="panBlend">
-			<value>0</value>
+			<value>80</value>
 		</property>
 		<relationship name="automators">
 			<destination>{c33eb954-ae8e-449c-9e7a-c35af8c153ad}</destination>
