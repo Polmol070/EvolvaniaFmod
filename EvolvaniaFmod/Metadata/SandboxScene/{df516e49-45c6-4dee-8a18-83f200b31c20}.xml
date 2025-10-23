@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="SandboxScene" id="{df516e49-45c6-4dee-8a18-83f200b31c20}">
+		<property name="name">
+			<value>Music3D</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e767bc18-731a-40c3-9fc3-5bd504cd372e}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{7cf0053e-07c8-4382-8744-bc8f75bfc515}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{55afc895-c1db-4d55-95fb-f2e348f9861e}</destination>
+		</relationship>
+		<relationship name="emitters">
+			<destination>{355940f2-6ebc-49d2-9725-60106949799e}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{7cf0053e-07c8-4382-8744-bc8f75bfc515}" />
+	<object class="Timeline" id="{55afc895-c1db-4d55-95fb-f2e348f9861e}" />
+	<object class="SandboxEmitter" id="{355940f2-6ebc-49d2-9725-60106949799e}">
+		<property name="positionX">
+			<value>-9.20082378</value>
+		</property>
+		<property name="positionZ">
+			<value>-1.25770748</value>
+		</property>
+		<property name="rotationY">
+			<value>80.5580673</value>
+		</property>
+		<relationship name="event">
+			<destination>{37540938-658f-4906-a536-a6bbac51bf92}</destination>
+		</relationship>
+	</object>
+</objects>

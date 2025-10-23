@@ -196,11 +196,8 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>80</value>
+			<value>50</value>
 		</property>
-		<relationship name="automators">
-			<destination>{c33eb954-ae8e-449c-9e7a-c35af8c153ad}</destination>
-		</relationship>
 	</object>
 	<object class="GainEffect" id="{e24a23dc-9518-457c-9e75-9eb0a4409fc0}">
 		<relationship name="automators">
@@ -208,11 +205,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{2ecdee3a-0a3e-49b3-82e3-c89965180761}" />
-	<object class="Automator" id="{c33eb954-ae8e-449c-9e7a-c35af8c153ad}">
-		<property name="nameOfPropertyBeingAutomated">
-			<value>panBlend</value>
-		</property>
-	</object>
 	<object class="Automator" id="{029bf11e-85c0-4c2d-a6d3-a6d4738f80a0}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>gain</value>
