@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{7f1ee9bb-5bae-476c-9023-26332edf4ebf}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{b0ac07e5-6ec6-4da3-a465-28bbb6155e26}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{ed91a713-b934-4dce-a1cb-4410ac9e2cfd}</destination>
 		</relationship>
@@ -41,6 +44,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{f04d6436-a1ec-430c-8d35-9fcf28ef3798}">
+		<relationship name="automationTracks">
+			<destination>{39f2f1bb-4f55-4539-be59-7e5f9871529a}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{5818adbb-4ed7-4a1c-bd40-b5bd5bf4bedf}</destination>
 		</relationship>
@@ -81,6 +87,11 @@
 			<destination>{5a3b725b-14fc-4c22-b5b2-ae80fb1abf9c}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterProxy" id="{b0ac07e5-6ec6-4da3-a465-28bbb6155e26}">
+		<relationship name="preset">
+			<destination>{6acaf943-1688-4ad1-a405-85084dcc2400}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{5818adbb-4ed7-4a1c-bd40-b5bd5bf4bedf}">
 		<property name="volume">
 			<value>-24</value>
@@ -96,6 +107,11 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{02610a3f-997b-42cf-8c7d-1c63753209d4}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{39f2f1bb-4f55-4539-be59-7e5f9871529a}">
+		<relationship name="automator">
+			<destination>{b098929c-ff03-49ab-902b-f32a7ff2a630}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{04d63a1d-1408-4261-ad5c-a5d98dedd8f8}">
@@ -193,8 +209,11 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>50</value>
+			<value>80</value>
 		</property>
+		<relationship name="automators">
+			<destination>{b098929c-ff03-49ab-902b-f32a7ff2a630}</destination>
+		</relationship>
 	</object>
 	<object class="GainEffect" id="{e24a23dc-9518-457c-9e75-9eb0a4409fc0}">
 		<relationship name="automators">
@@ -202,12 +221,29 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{2ecdee3a-0a3e-49b3-82e3-c89965180761}" />
+	<object class="Automator" id="{b098929c-ff03-49ab-902b-f32a7ff2a630}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>panBlend</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{48da937f-3fdd-421f-9b00-51e9407ddeca}</destination>
+		</relationship>
+	</object>
 	<object class="Automator" id="{029bf11e-85c0-4c2d-a6d3-a6d4738f80a0}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>gain</value>
 		</property>
 		<relationship name="automationCurves">
 			<destination>{ab41d2f3-55d7-43cf-97be-5abcd45c8c6b}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{48da937f-3fdd-421f-9b00-51e9407ddeca}">
+		<relationship name="parameter">
+			<destination>{6acaf943-1688-4ad1-a405-85084dcc2400}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{25bbd4d0-0ed5-4090-a8bb-56abc808f82d}</destination>
+			<destination>{2d538f7a-9815-405c-a1b8-fc6174463922}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{ab41d2f3-55d7-43cf-97be-5abcd45c8c6b}">
@@ -219,9 +255,25 @@
 			<destination>{111fbbc7-234e-4817-8247-c892d4610795}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationPoint" id="{25bbd4d0-0ed5-4090-a8bb-56abc808f82d}">
+		<property name="position">
+			<value>15</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{2d538f7a-9815-405c-a1b8-fc6174463922}">
+		<property name="position">
+			<value>30</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{e406fafc-1e39-4da7-99e9-f183c9454d7c}">
 		<property name="position">
-			<value>10</value>
+			<value>15</value>
 		</property>
 		<property name="value">
 			<value>4</value>
