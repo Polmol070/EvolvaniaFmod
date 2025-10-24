@@ -142,7 +142,7 @@
 	<object class="MixerBusFader" id="{0ef9f36a-872c-454a-96ab-eb79238a3e37}" />
 	<object class="GainEffect" id="{5f9913f7-5e98-403a-941e-fc96be7e45e2}">
 		<property name="gain">
-			<value>1.5</value>
+			<value>3</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{9665154e-6286-4fb2-8710-0c9f6d5dd369}">
