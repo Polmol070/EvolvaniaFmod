@@ -93,7 +93,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{ffa710b4-717f-45de-bcc9-29efe4b05178}">
 		<property name="volume">
-			<value>-24</value>
+			<value>-22</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{62aefdc4-6e22-4083-85ce-26d29e58c1ab}</destination>
@@ -285,7 +285,7 @@
 	<object class="MixerBusFader" id="{b208c0b3-6c31-4a98-90dc-9be063c8e302}" />
 	<object class="GainEffect" id="{5a076759-a819-41b1-a89c-e0f1379e6eab}">
 		<property name="gain">
-			<value>9</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{c7ec370e-b5dd-4379-931d-cfcaeba2d18d}">
