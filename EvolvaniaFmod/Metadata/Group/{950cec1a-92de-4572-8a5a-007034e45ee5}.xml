@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{950cec1a-92de-4572-8a5a-007034e45ee5}">
+		<property name="name">
+			<value>Spine</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{09b1a00e-df03-4bd0-aac1-f1a8a985f73e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{a5a753b0-2e5e-41b5-a8c3-ffb7a221c3b8}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{c7b5e660-781b-40ac-8fb3-c155b6171708}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{09b1a00e-df03-4bd0-aac1-f1a8a985f73e}">
+		<relationship name="effects">
+			<destination>{f1e1eafe-4cd5-4136-881a-3efb0be847fd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{a5a753b0-2e5e-41b5-a8c3-ffb7a221c3b8}" />
+	<object class="MixerBusFader" id="{f1e1eafe-4cd5-4136-881a-3efb0be847fd}" />
+</objects>
