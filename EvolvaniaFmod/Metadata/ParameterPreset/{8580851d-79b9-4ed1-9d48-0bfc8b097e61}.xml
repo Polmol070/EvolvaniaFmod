@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{8580851d-79b9-4ed1-9d48-0bfc8b097e61}">
+		<property name="name">
+			<value>RocksSpeed</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8a6629b3-e4ef-49f7-9d33-0a15be3b47cb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{12d70b40-32d5-49a6-8c04-e6e485eee38e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{12d70b40-32d5-49a6-8c04-e6e485eee38e}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>2</value>
+		</property>
+	</object>
+</objects>
