@@ -17,8 +17,20 @@
 	<object class="MixerBusEffectChain" id="{6efdee8a-0a6c-44b8-b065-0070b03c26ec}">
 		<relationship name="effects">
 			<destination>{55b1a80a-f8c7-4ca8-ba43-918e366a39e2}</destination>
+			<destination>{e73b2427-ac5b-431b-996e-eeeaf6cf718f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8e5a63f7-d422-408e-95c4-81289b88cb50}" />
 	<object class="MixerBusFader" id="{55b1a80a-f8c7-4ca8-ba43-918e366a39e2}" />
+	<object class="ChorusEffect" id="{e73b2427-ac5b-431b-996e-eeeaf6cf718f}">
+		<property name="rate">
+			<value>0.0899999961</value>
+		</property>
+		<property name="depth">
+			<value>0</value>
+		</property>
+		<property name="mix">
+			<value>0</value>
+		</property>
+	</object>
 </objects>
