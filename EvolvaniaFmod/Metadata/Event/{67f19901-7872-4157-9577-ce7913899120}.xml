@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{67f19901-7872-4157-9577-ce7913899120}">
 		<property name="name">
-			<value>littlerockball_bounce_impact</value>
+			<value>enity_littlerockl_bounce_impact</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>

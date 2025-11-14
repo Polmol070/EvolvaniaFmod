@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b42fa14f-4422-418d-885e-132541cf52af}">
 		<property name="name">
-			<value>sspineball_small_impact</value>
+			<value>spineball_small_impact</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>

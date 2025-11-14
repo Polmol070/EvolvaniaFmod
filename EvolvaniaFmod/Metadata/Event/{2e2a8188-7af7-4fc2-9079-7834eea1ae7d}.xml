@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2e2a8188-7af7-4fc2-9079-7834eea1ae7d}">
 		<property name="name">
-			<value>entity_midrockball_loop</value>
+			<value>entity_rockmid_loop</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -70,7 +70,7 @@
 			<value>2</value>
 		</property>
 		<property name="priority">
-			<value>3</value>
+			<value>1</value>
 		</property>
 		<property name="triggerCooldown">
 			<value>120</value>
