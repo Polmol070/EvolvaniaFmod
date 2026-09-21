@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>PlayerFoley</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{cf162d3a-e2ef-481d-bbff-7d5cc97f72a7}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{91a5d7c8-17bc-4ac7-be05-de54757f5cf3}</destination>
 		</relationship>
@@ -13,6 +16,11 @@
 		<relationship name="output">
 			<destination>{35f2ac60-d3dc-4971-b502-1740e15b9250}</destination>
 		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{cf162d3a-e2ef-481d-bbff-7d5cc97f72a7}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{91a5d7c8-17bc-4ac7-be05-de54757f5cf3}">
 		<relationship name="effects">
