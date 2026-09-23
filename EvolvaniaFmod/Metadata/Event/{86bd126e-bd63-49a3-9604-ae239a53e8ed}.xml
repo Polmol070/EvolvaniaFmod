@@ -62,7 +62,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{58efa7ae-75f8-4982-bd80-34eb5fbcaef0}">
 		<property name="maxVoices">
-			<value>2</value>
+			<value>3</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{6fc88ad7-e8d6-4a77-8463-c38850f0c0f3}" />
@@ -286,6 +286,7 @@
 		<relationship name="effects">
 			<destination>{c148f270-5092-4ace-8cd9-54deb2a060bd}</destination>
 			<destination>{b048f78b-1c5a-416d-82d6-5e9f84bf5568}</destination>
+			<destination>{8286dcad-a032-4494-a8c8-929505b70b4f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{956dc074-9be9-4b88-8d57-a09c9ea6de80}" />
@@ -530,6 +531,17 @@
 		</property>
 		<property name="gainE">
 			<value>3</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{8286dcad-a032-4494-a8c8-929505b70b4f}">
+		<property name="filterTypeA">
+			<value>4</value>
+		</property>
+		<property name="frequencyA">
+			<value>150</value>
+		</property>
+		<property name="qualityA">
+			<value>0.800000012</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9943d436-ea7a-4def-b30e-4f7aaea11cdd}">
