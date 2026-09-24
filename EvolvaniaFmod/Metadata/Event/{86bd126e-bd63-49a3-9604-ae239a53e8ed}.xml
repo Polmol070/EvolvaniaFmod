@@ -63,6 +63,9 @@
 		<property name="voiceStealing">
 			<value>3</value>
 		</property>
+		<property name="triggerCooldown">
+			<value>125</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{6fc88ad7-e8d6-4a77-8463-c38850f0c0f3}" />
 	<object class="GroupTrack" id="{715f8ee6-0daa-467e-9617-7560c2c9e580}">
@@ -103,7 +106,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{75ba3867-79be-4c27-a3e4-746e47cb76bc}">
 		<property name="volume">
-			<value>-2</value>
+			<value>2</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{fe160051-0514-429e-acf4-5b2a8ba35684}</destination>

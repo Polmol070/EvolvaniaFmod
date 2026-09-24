@@ -66,7 +66,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{6b134c7f-e304-45d5-b9ab-2c6e640160c8}">
 		<property name="triggerCooldown">
-			<value>125</value>
+			<value>250</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{055322df-586e-46a0-b2a9-80f02799080f}" />
@@ -203,7 +203,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{041f1799-f253-4b6b-8968-037c52e1d3f4}">
 		<property name="volume">
-			<value>-21</value>
+			<value>-6</value>
 		</property>
 		<property name="name">
 			<value>High_b</value>
