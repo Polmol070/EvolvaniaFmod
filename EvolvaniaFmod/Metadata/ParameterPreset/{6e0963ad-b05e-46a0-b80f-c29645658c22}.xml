@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{6e0963ad-b05e-46a0-b80f-c29645658c22}">
+		<property name="name">
+			<value>UpDown_Music</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8a6629b3-e4ef-49f7-9d33-0a15be3b47cb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{180eaa02-f6e9-4644-8202-99b1fb56f501}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{180eaa02-f6e9-4644-8202-99b1fb56f501}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.5</value>
+		</property>
+	</object>
+</objects>

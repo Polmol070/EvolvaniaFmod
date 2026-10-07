@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7e58a45c-a6d9-4695-992b-155c4b50db18}">
+		<property name="assetPath">
+			<value>Music/POLMONE/M03_Polmone_BossFight_REVERSE/Fase 3/M03_Polmone_BossFight_PercFase3_REVERSEwav.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>143.51995833333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1f5d9776-bd62-46e8-9177-8206a9dfa926}</destination>
+		</relationship>
+	</object>
+</objects>

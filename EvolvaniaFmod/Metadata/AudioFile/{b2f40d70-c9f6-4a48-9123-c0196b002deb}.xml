@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b2f40d70-c9f6-4a48-9123-c0196b002deb}">
+		<property name="assetPath">
+			<value>InGameSounds/Vapor/Reverb/VaporLow_Rev.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>44</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1f5d9776-bd62-46e8-9177-8206a9dfa926}</destination>
+		</relationship>
+	</object>
+</objects>

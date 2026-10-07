@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{0350e56b-1bce-4259-86ae-83361cbd5021}">
+		<property name="name">
+			<value>Breath2</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8a6629b3-e4ef-49f7-9d33-0a15be3b47cb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{016549b6-a3c4-4033-8763-7602baed115b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{016549b6-a3c4-4033-8763-7602baed115b}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.5</value>
+		</property>
+	</object>
+</objects>

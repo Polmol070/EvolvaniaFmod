@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{62496459-079a-4ba5-9389-87bd9566f230}">
+		<property name="assetPath">
+			<value>Music/POLMONE/M03_Polmone_EXPMusic/M03_Polmone_Music_LowSynth.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>146.49212499999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1f5d9776-bd62-46e8-9177-8206a9dfa926}</destination>
+		</relationship>
+	</object>
+</objects>
