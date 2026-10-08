@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e06c4ac5-0ab5-48f8-970c-ea0b29848759}">
+		<property name="name">
+			<value>BossFasi</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8a6629b3-e4ef-49f7-9d33-0a15be3b47cb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ffafbdda-1d11-4251-9bbf-b0d38427a57f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ffafbdda-1d11-4251-9bbf-b0d38427a57f}">
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

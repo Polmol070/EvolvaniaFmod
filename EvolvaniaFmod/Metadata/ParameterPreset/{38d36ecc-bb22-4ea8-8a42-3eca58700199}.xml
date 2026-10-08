@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{38d36ecc-bb22-4ea8-8a42-3eca58700199}">
+		<property name="name">
+			<value>GearsChains</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8a6629b3-e4ef-49f7-9d33-0a15be3b47cb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8a099486-8c12-46a9-9649-106a4fc3a003}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8a099486-8c12-46a9-9649-106a4fc3a003}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.5</value>
+		</property>
+	</object>
+</objects>

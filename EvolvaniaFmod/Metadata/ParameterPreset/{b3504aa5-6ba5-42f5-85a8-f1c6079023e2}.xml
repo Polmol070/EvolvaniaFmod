@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{b3504aa5-6ba5-42f5-85a8-f1c6079023e2}">
+		<property name="name">
+			<value>GearsFreeTime</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8a6629b3-e4ef-49f7-9d33-0a15be3b47cb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3d53b873-9cac-4584-a95b-89a89f7420f1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3d53b873-9cac-4584-a95b-89a89f7420f1}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.5</value>
+		</property>
+	</object>
+</objects>
