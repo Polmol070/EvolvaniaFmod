@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{3b1a2c7f-b24b-4105-8340-34bfc21fac8e}">
+		<property name="assetPath">
+			<value>Arrow/Arrow_04.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.75</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fe2ccf5f-b3cc-4ffe-a0c6-624c1f9d9fd0}</destination>
+		</relationship>
+	</object>
+</objects>
