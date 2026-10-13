@@ -101,7 +101,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{ce123bff-11be-466d-b92f-3e4601c1f2c6}">
 		<property name="volume">
-			<value>-1.5</value>
+			<value>3</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{c1bda51d-e430-4724-9c01-98a1f1256c04}</destination>
@@ -172,7 +172,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{041f1799-f253-4b6b-8968-037c52e1d3f4}">
 		<property name="volume">
-			<value>-9</value>
+			<value>-6</value>
 		</property>
 		<property name="name">
 			<value>High_b</value>
