@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1fbbf960-7f0e-48c9-ae3b-309ce8721730}">
 		<property name="name">
-			<value>middle_dorne_loop</value>
+			<value>middle_drone_loop</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
