@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{943c542f-8b5f-485b-b7f4-652e2cdd527a}">
+		<property name="assetPath">
+			<value>Enemies/Noises_And_Loop/Metal_Snake/Metal_snake_scream/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1f5d9776-bd62-46e8-9177-8206a9dfa926}</destination>
+		</relationship>
+	</object>
+</objects>

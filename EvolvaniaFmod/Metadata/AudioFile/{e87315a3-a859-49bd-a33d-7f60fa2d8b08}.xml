@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{e87315a3-a859-49bd-a33d-7f60fa2d8b08}">
 		<property name="assetPath">
-			<value>Enemies/Noises/SpiderNoises/SpiderNoises.wav</value>
+			<value>Enemies/Noises_And_Loop/SpiderNoises_A/SpiderNoises.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
