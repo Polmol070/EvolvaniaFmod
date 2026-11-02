@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{b0f22f30-007e-4f3b-bd3b-f4fe4f466155}">
+		<property name="assetPath">
+			<value>InGameSounds/Metallic_Saw_Loop/Big_Metallic_Saw_Loop/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1f5d9776-bd62-46e8-9177-8206a9dfa926}</destination>
+		</relationship>
+	</object>
+</objects>

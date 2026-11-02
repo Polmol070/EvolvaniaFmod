@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{adc4f774-269e-471e-a47c-a664c7cecb4d}">
+		<property name="volume">
+			<value>5</value>
+		</property>
+		<property name="name">
+			<value>MetalliSaw</value>
+		</property>
+		<property name="instanceStealing">
+			<value>3</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{724c8cf4-a2f8-41e4-b48e-2a4ba7d42a90}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{9af344cd-b928-4be2-a755-6d61ead98411}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{809d1dd2-e300-47a8-8b57-4f1e0d993d63}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{724c8cf4-a2f8-41e4-b48e-2a4ba7d42a90}">
+		<relationship name="effects">
+			<destination>{c369475f-b41d-463b-8bb0-2b250db011ed}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{9af344cd-b928-4be2-a755-6d61ead98411}" />
+	<object class="MixerBusFader" id="{c369475f-b41d-463b-8bb0-2b250db011ed}" />
+</objects>
