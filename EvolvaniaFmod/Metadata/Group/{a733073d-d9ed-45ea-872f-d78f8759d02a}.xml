@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{a733073d-d9ed-45ea-872f-d78f8759d02a}">
+		<property name="name">
+			<value>Gear_Change_Direction</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{235a417d-c131-4996-901c-515863cfb90a}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d10ddda6-cf5d-4aa1-b274-834dab8fd66c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{809d1dd2-e300-47a8-8b57-4f1e0d993d63}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{235a417d-c131-4996-901c-515863cfb90a}">
+		<relationship name="effects">
+			<destination>{991dc346-9cd4-4a13-bf23-1b2c0c6d83a1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d10ddda6-cf5d-4aa1-b274-834dab8fd66c}" />
+	<object class="MixerBusFader" id="{991dc346-9cd4-4a13-bf23-1b2c0c6d83a1}" />
+</objects>
