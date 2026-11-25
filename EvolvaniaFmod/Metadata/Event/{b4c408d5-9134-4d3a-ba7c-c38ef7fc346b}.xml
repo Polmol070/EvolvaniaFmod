@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b4c408d5-9134-4d3a-ba7c-c38ef7fc346b}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>generic_footstep_terrain_enemies</value>
 		</property>

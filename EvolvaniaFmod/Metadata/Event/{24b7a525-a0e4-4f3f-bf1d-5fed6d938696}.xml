@@ -158,6 +158,7 @@
 		<relationship name="effects">
 			<destination>{f22cb4d0-6ebf-497f-baf3-048040b93dea}</destination>
 			<destination>{e3f1a629-3e8f-4187-a522-31e4ab3eea18}</destination>
+			<destination>{f12b7a24-7bc6-4c10-a3df-635c98638697}</destination>
 			<destination>{af4e1c58-df93-4ec0-8bc3-13050ddd6943}</destination>
 			<destination>{2a7d6b6a-35e1-47b6-a569-af64ada0295c}</destination>
 		</relationship>
@@ -223,6 +224,20 @@
 	<object class="GainEffect" id="{e3f1a629-3e8f-4187-a522-31e4ab3eea18}">
 		<property name="gain">
 			<value>6</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{f12b7a24-7bc6-4c10-a3df-635c98638697}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>3608.52173</value>
+		</property>
+		<property name="qualityA">
+			<value>0.519999981</value>
+		</property>
+		<property name="gainA">
+			<value>-4.32286072</value>
 		</property>
 	</object>
 	<object class="SpatialiserEffect" id="{af4e1c58-df93-4ec0-8bc3-13050ddd6943}">

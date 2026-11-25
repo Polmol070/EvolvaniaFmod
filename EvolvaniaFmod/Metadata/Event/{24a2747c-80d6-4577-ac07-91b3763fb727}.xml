@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{24a2747c-80d6-4577-ac07-91b3763fb727}">
+		<property name="color">
+			<value>Magenta Light 1</value>
+		</property>
 		<property name="name">
 			<value>landingmeat_big</value>
 		</property>
@@ -148,6 +151,9 @@
 		</relationship>
 	</object>
 	<object class="CommandSound" id="{45d36251-70cf-4696-8852-c53b8cdc3855}">
+		<property name="start">
+			<value>0.125</value>
+		</property>
 		<property name="length">
 			<value>2</value>
 		</property>
@@ -229,6 +235,7 @@
 	<object class="MixerBusEffectChain" id="{79e8c945-c11e-4824-94b6-10c320ffe58f}">
 		<relationship name="effects">
 			<destination>{abfb0b52-08fa-4b02-aa9f-9411b1479354}</destination>
+			<destination>{71a33fb8-e935-442a-998c-cd4b03f5c8cb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ffaddc4b-decd-4587-a62a-cb515156576c}" />
@@ -268,6 +275,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{abfb0b52-08fa-4b02-aa9f-9411b1479354}" />
+	<object class="MultibandEqEffect" id="{71a33fb8-e935-442a-998c-cd4b03f5c8cb}">
+		<property name="filterTypeA">
+			<value>7</value>
+		</property>
+		<property name="frequencyA">
+			<value>120</value>
+		</property>
+		<property name="gainA">
+			<value>-3</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{87561713-9234-4980-a182-dbfc61180ca3}" />
 	<object class="Automator" id="{8910b8ab-30aa-491e-8d05-a715559c17fe}">
 		<property name="nameOfPropertyBeingAutomated">

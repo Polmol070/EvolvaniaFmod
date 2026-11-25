@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c1fae1b6-5643-4d81-bbca-27ec09cfdd7b}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>landingterrain_big</value>
 		</property>
@@ -195,6 +198,7 @@
 	<object class="MixerBusEffectChain" id="{b629ec47-714f-4f19-911d-3fd51e7fa002}">
 		<relationship name="effects">
 			<destination>{ed6ee5d5-6b27-43c4-963b-57c8225a044f}</destination>
+			<destination>{fd75b28f-3d92-461e-b9bf-cb035a87ba53}</destination>
 			<destination>{2e5fc977-99a5-4328-aaf4-eda002ef36bd}</destination>
 			<destination>{71e8ed80-1a11-420a-8786-2b46fb5aaaf9}</destination>
 		</relationship>
@@ -253,6 +257,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{57b2ad3b-9015-4764-8113-7833f8f853b1}" />
 	<object class="MixerBusFader" id="{ed6ee5d5-6b27-43c4-963b-57c8225a044f}" />
+	<object class="MultibandEqEffect" id="{fd75b28f-3d92-461e-b9bf-cb035a87ba53}">
+		<property name="filterTypeA">
+			<value>7</value>
+		</property>
+		<property name="frequencyA">
+			<value>120</value>
+		</property>
+		<property name="gainA">
+			<value>-3</value>
+		</property>
+	</object>
 	<object class="SpatialiserEffect" id="{2e5fc977-99a5-4328-aaf4-eda002ef36bd}">
 		<property name="distanceRolloffType">
 			<value>4</value>

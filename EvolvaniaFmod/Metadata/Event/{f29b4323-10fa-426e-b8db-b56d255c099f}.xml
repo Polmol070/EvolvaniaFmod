@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f29b4323-10fa-426e-b8db-b56d255c099f}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>generic_landing_terrain_enemies</value>
 		</property>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{8ee56e98-32ce-4aa7-ba19-8a0e99fc98d7}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>generic_footstep_metal_enemies_landing</value>
 		</property>
@@ -225,7 +228,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{c7bdb19e-9bb5-40ad-b3d9-c21443fcb2cf}" />
 	<object class="MixerBusFader" id="{8b29a4fc-41ca-465c-9cdb-f9202a588528}" />
-	<object class="GainEffect" id="{c03baace-0901-46a3-9cde-982240f9f0d7}" />
+	<object class="GainEffect" id="{c03baace-0901-46a3-9cde-982240f9f0d7}">
+		<property name="gain">
+			<value>-3</value>
+		</property>
+	</object>
 	<object class="SpatialiserEffect" id="{a30a5022-0971-480e-90b3-cd1b500af859}">
 		<property name="distanceRolloffType">
 			<value>1</value>

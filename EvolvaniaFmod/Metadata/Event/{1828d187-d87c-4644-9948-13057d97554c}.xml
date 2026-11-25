@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1828d187-d87c-4644-9948-13057d97554c}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>generic_footstep_metal_enemies_v2</value>
 		</property>
