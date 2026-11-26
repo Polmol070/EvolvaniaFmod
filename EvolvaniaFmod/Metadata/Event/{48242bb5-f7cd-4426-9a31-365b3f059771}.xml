@@ -8,7 +8,7 @@
 			<value>player_generic_crossbow_shoot</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0f4df3c4-ae29-45ab-be67-45daab2c55fb}</destination>
@@ -185,7 +185,6 @@
 			<destination>{c39aeb15-8b01-431a-a679-03f396bf945a}</destination>
 			<destination>{900e1bda-3bed-42f9-bec8-49e58bc47a59}</destination>
 			<destination>{cf674456-21d0-4a77-965c-e6f8e725666a}</destination>
-			<destination>{2cca0808-cb75-4d11-90c3-5eed927bd358}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c3fa369b-241a-4327-b6e2-aee1b7940a8b}" />
@@ -316,29 +315,6 @@
 	<object class="GainEffect" id="{cf674456-21d0-4a77-965c-e6f8e725666a}">
 		<relationship name="automators">
 			<destination>{0a691ffd-5add-4401-94ad-7509c1b56f5c}</destination>
-		</relationship>
-	</object>
-	<object class="SpatialiserEffect" id="{2cca0808-cb75-4d11-90c3-5eed927bd358}">
-		<property name="distanceRolloffType">
-			<value>4</value>
-		</property>
-		<property name="minimumDistance">
-			<value>10</value>
-		</property>
-		<property name="maximumDistance">
-			<value>100</value>
-		</property>
-		<property name="overrideRange">
-			<value>true</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>20</value>
-		</property>
-		<relationship name="automators">
-			<destination>{719d2d7a-74a9-485b-baab-8ec421dbeb35}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{de6a0a70-54d9-40e5-97cb-fd626b93c312}">
@@ -477,14 +453,6 @@
 			<destination>{5f8a3883-fe2a-4711-a164-e6b03f838962}</destination>
 		</relationship>
 	</object>
-	<object class="Automator" id="{719d2d7a-74a9-485b-baab-8ec421dbeb35}">
-		<property name="nameOfPropertyBeingAutomated">
-			<value>panBlend</value>
-		</property>
-		<relationship name="automationCurves">
-			<destination>{8dbc32da-ff11-4ef7-999a-c6ba6cf780bb}</destination>
-		</relationship>
-	</object>
 	<object class="AutomationPoint" id="{11b87af7-f0b8-4922-8951-8a927f5f5424}">
 		<property name="position">
 			<value>4.9788135593220337</value>
@@ -551,15 +519,6 @@
 			<destination>{67d6c6fc-c9bd-4364-b93e-4eac58990727}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationCurve" id="{8dbc32da-ff11-4ef7-999a-c6ba6cf780bb}">
-		<relationship name="parameter">
-			<destination>{6acaf943-1688-4ad1-a405-85084dcc2400}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{e86957be-118f-4fa7-a1c1-af95341972f8}</destination>
-			<destination>{54cfdc4a-c222-4917-bc99-07c7c50a6f35}</destination>
-		</relationship>
-	</object>
 	<object class="AutomationCurve" id="{c6baa34f-881f-40e9-81cc-743de8bebaf4}">
 		<relationship name="parameter">
 			<destination>{ad8929eb-bac4-41aa-8353-ed2b365f3d42}</destination>
@@ -593,7 +552,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<property name="curveShape">
 			<value>0.5</value>
@@ -608,22 +567,6 @@
 		</property>
 		<property name="value">
 			<value>-80</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{e86957be-118f-4fa7-a1c1-af95341972f8}">
-		<property name="position">
-			<value>29.80295566502463</value>
-		</property>
-		<property name="value">
-			<value>1</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{54cfdc4a-c222-4917-bc99-07c7c50a6f35}">
-		<property name="position">
-			<value>9.9343185550082094</value>
-		</property>
-		<property name="value">
-			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{59fdd6bc-57b5-4915-8865-a54000f85446}">

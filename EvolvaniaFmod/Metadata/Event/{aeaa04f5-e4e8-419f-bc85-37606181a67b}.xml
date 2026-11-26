@@ -8,7 +8,7 @@
 			<value>player_generic_swing</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0f4df3c4-ae29-45ab-be67-45daab2c55fb}</destination>
@@ -383,7 +383,6 @@
 			<destination>{fde3ef02-b79e-4d5a-a07b-11b98aa63de0}</destination>
 			<destination>{df9c49ed-73ae-4ea2-9c5a-3687c193a270}</destination>
 			<destination>{af483a63-c32c-4d3a-a2db-4063adae1e80}</destination>
-			<destination>{cf9db620-309d-4b88-81d8-eca00f52b24d}</destination>
 			<destination>{24a37332-d29f-41e4-9ec6-0a23fad9b290}</destination>
 		</relationship>
 	</object>
@@ -874,29 +873,6 @@
 			<destination>{73427458-6d9e-42f0-abeb-ddf88dd063ed}</destination>
 		</relationship>
 	</object>
-	<object class="SpatialiserEffect" id="{cf9db620-309d-4b88-81d8-eca00f52b24d}">
-		<property name="distanceRolloffType">
-			<value>4</value>
-		</property>
-		<property name="minimumDistance">
-			<value>10</value>
-		</property>
-		<property name="maximumDistance">
-			<value>100</value>
-		</property>
-		<property name="overrideRange">
-			<value>true</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>20</value>
-		</property>
-		<relationship name="automators">
-			<destination>{427d08b9-fdab-405c-9934-331a6138e84b}</destination>
-		</relationship>
-	</object>
 	<object class="SFXReverbEffect" id="{24a37332-d29f-41e4-9ec6-0a23fad9b290}">
 		<property name="bypass">
 			<value>true</value>
@@ -955,14 +931,6 @@
 			<destination>{ee3ddb90-103f-4ef7-956b-975ac22abfa8}</destination>
 		</relationship>
 	</object>
-	<object class="Automator" id="{427d08b9-fdab-405c-9934-331a6138e84b}">
-		<property name="nameOfPropertyBeingAutomated">
-			<value>panBlend</value>
-		</property>
-		<relationship name="automationCurves">
-			<destination>{ddcf273f-989b-44f5-b876-51fa28c7349a}</destination>
-		</relationship>
-	</object>
 	<object class="AutomationPoint" id="{9bc6654d-0baa-4a25-b903-98d4c05cccfd}">
 		<property name="position">
 			<value>5</value>
@@ -1013,15 +981,6 @@
 			<destination>{3885ffdd-92b0-446c-af7c-ffdde8f3736a}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationCurve" id="{ddcf273f-989b-44f5-b876-51fa28c7349a}">
-		<relationship name="parameter">
-			<destination>{6acaf943-1688-4ad1-a405-85084dcc2400}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{c62fa131-3564-45e0-9ce2-0ab005e88f07}</destination>
-			<destination>{f17db919-d41b-448c-bef8-c2741de1a66c}</destination>
-		</relationship>
-	</object>
 	<object class="AutomationPoint" id="{b8689d35-1879-4d3f-a039-2041472cfd6d}">
 		<property name="position">
 			<value>4.9507389162561575</value>
@@ -1058,22 +1017,6 @@
 		</property>
 		<property name="value">
 			<value>-80</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{c62fa131-3564-45e0-9ce2-0ab005e88f07}">
-		<property name="position">
-			<value>29.80295566502463</value>
-		</property>
-		<property name="value">
-			<value>1</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{f17db919-d41b-448c-bef8-c2741de1a66c}">
-		<property name="position">
-			<value>9.9343185550082094</value>
-		</property>
-		<property name="value">
-			<value>0</value>
 		</property>
 	</object>
 </objects>

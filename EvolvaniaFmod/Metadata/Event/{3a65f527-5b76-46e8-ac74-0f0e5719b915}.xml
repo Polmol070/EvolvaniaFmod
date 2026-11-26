@@ -413,6 +413,7 @@
 			<destination>{eeefbdf6-df0a-45fc-bf9f-032cb2641fec}</destination>
 			<destination>{ada0377a-d71a-4b7e-8c89-123bf11209ca}</destination>
 			<destination>{4dea74af-fec0-4914-a1bd-51c0b2e002da}</destination>
+			<destination>{750f6658-c626-445b-980d-921357d9b023}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ca276edd-c159-4276-844b-e05a29532785}" />
@@ -653,7 +654,24 @@
 	</object>
 	<object class="GainEffect" id="{4dea74af-fec0-4914-a1bd-51c0b2e002da}">
 		<property name="gain">
-			<value>8</value>
+			<value>5</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{750f6658-c626-445b-980d-921357d9b023}">
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>22000</value>
+		</property>
+		<property name="frequencyB">
+			<value>190</value>
+		</property>
+		<property name="qualityB">
+			<value>2</value>
+		</property>
+		<property name="gainB">
+			<value>-1</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{5cc951a3-3d89-4a69-a2d9-79f589139f4e}">
